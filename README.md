@@ -22,5 +22,16 @@
 ![](./images/edgeinspet.png)
 > 打开浏览器调试页面
 - 点击营销监管平台下面的inspect按钮，进入调试页面
-![](./images/edgeinspet1.png)
+![](./images/edgeinspect1.png)
 > 浏览器调试功能
+
+## 后端日志
+- 本地[安装jdk8](https://jingyan.baidu.com/article/1876c85225e939890a13764d.html)
+- 本地安装AndroidSdk
+- 控制台进入 Androidsdk\platform-tools目录，执行adb，开启服务
+- adb devices查看已连接设备
+![](./images/adbdevices.png)
+> 查看连接设备
+- adb logcat查看客户端输入日志
+![](./images/adblogcat.png)
+> 查看错误输出
